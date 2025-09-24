@@ -6,8 +6,8 @@ export const dataSource = new DataSource({
   host: 'localhost',
   port: 3306,
   username: 'root',      // <-- Mude
-  password: 'password',  // <-- Mude
-  database: 'todo-backend-db', // <-- Mude
+  password: '1234',  // <-- Mude
+  database: 'todo-backend2', // <-- Mude
   entities: ['dist/**/*.entity.js'],
   migrations: ['dist/migrations/*.js'],
   migrationsRun: false,
